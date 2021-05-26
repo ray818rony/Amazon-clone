@@ -1,0 +1,137 @@
+*{
+  font-family: sans-serif;
+}
+
+.login>hr{
+  margin: 5em 3em 2em 4em;
+  width: 75%;
+  
+}
+
+.login_signInButton{
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  width: 98%;
+  background-color: rgb(221, 209, 103);
+ 
+
+
+}
+
+.login_container{
+   
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-right: 30%; 
+  margin-left: 30%;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.login_container::before,
+.login_container::after{
+  flex: 2;
+}
+
+.login_container>form>input{
+height: 30px;
+border-radius: 5px;
+margin-bottom: 10px;
+outline: none;
+width: 98%;
+border:1px solid black;
+}
+
+.login_container>form>a{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.login_logo{
+    margin: top 0px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    position: sticky;
+    justify-content: center;
+    padding-left: 45% ;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-right:30% ;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid black;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+
+h5{
+  flex-wrap: wrap;
+  display: flex;
+}
+
+hr{
+  margin-top: 60px;
+}
+
+.Account{
+  width: 40%;
+  margin-top: 5px;
+  margin-right: 30%; 
+  margin-left: 30%;
+  height: 30px;
+  margin-bottom: 10px;
+  outline: none;
+  background-color: grey;
+  font-size: 11px;
+}
+
+.foots{
+  
+  padding-left: 1px;
+  text-align: center;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ending{
+  text-align: center;
+  font-size: 12px;
+}
+
+.foots>a{
+  padding-right: 1px ;
+
+}
